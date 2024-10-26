@@ -1,9 +1,3 @@
-import { UserButton } from "@clerk/nextjs";
-
-export default function Home() {
-  return (
-    <main>
-      <UserButton />
-    </main>
-  );
+export default function DashboardPage() {
+  return <>Dashboard</>;
 }
